@@ -1,0 +1,21 @@
+.Toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    height: 83px;
+}
+
+.Logo {
+    height: 100%;
+}
+
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+}
